@@ -1,3 +1,9 @@
-{
-    "Hello":"Hello"
+{    
+    "Published on":"Published on {{date}}",
+    "Created":"Created  {{date}}",
+    "Homepage":"Homepage",
+    "This is home page":"This is home page",
+    "Do not worry everything will be okay":"Do not worry everything will be okay",
+    "Aboutpage":"Aboutpage",
+    "This is about page":"This is about page"
 }

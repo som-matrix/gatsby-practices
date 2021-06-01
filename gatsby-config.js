@@ -52,13 +52,17 @@ module.exports = {
         i18nextOptions: {
           interpolation: {
             escapeValue: false,
+            format: function (value, format, lng) {
+              if (value instanceof Date) return moment(value).format(format);
+              return value;
+            },
           },
           keySeparator: false,
           nsSeparator: false,
         },
         pages: [
           {
-            matchPath: `/:lang/blog/:uid`,
+            matchPath: `/:lang?/blog/:uid`,
             getLanguageFromPath: true,
             excludeLanguages: [`es`],
           },

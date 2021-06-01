@@ -1,3 +1,12 @@
 {
-    "Hello":"Hello"
+    "Published on":"zveřejněno dne {{date}}",
+    "Created":"Vytvořeno  {{date}}",
+    "Home":"Domov",
+    "About":"O",
+    "Homepage":"Domovská stránka",
+    "This is home page":"Toto je domovská stránka",
+    "Do not worry everything will be okay":"Nebojte se, všechno bude v pořádku",
+    "Aboutpage":"O stránce",
+    "This is about page":"Toto je stránka"
+      
 }

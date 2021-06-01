@@ -1,6 +1,5 @@
 import * as React from "react";
 import { container, heading } from "../components/Layout.module.css";
-
 import Header from "./Header";
 const Layout = ({ pageTitle, children }) => {
   return (
@@ -12,5 +11,4 @@ const Layout = ({ pageTitle, children }) => {
     </main>
   );
 };
-
 export default Layout;

@@ -5,19 +5,21 @@ import {
   navLinkItem,
   navLinkText,
 } from "../components/Layout.module.css";
+import { useTranslation } from "gatsby-plugin-react-i18next";
 const Header = () => {
+  const { t } = useTranslation();
   const { languages, originalPath } = useI18next();
   return (
     <nav>
       <ul className={navLinks}>
         <li className={navLinkItem}>
           <Link className={navLinkText} to="/">
-            Home
+            {t("Home")}
           </Link>
         </li>
         <li className={navLinkItem}>
           <Link className={navLinkText} to="/about">
-            About
+            {t("About")}
           </Link>
         </li>
       </ul>

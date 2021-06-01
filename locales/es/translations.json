@@ -1,3 +1,11 @@
-{
-    "Hello":"Hello"
+{   
+    "Published on":"Publicado en {{date}}",
+    "Created":"Creado  {{date}}",
+    "Home":"Casa",
+    "About":"Acerca de",
+    "Homepage":"Página principal",
+    "This is home page":"Esta es la pagina de inicio",
+    "Do not worry everything will be okay":"No te preocupes todo saldrá bien",
+    "Aboutpage":"Acerca de la página",
+    "This is about page":"Esto es sobre la página"
 }
