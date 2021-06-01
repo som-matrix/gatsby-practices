@@ -1,3 +1,8 @@
-# Mountains
+---
+title: Mountains
+author: Satya Swaroop
+---
 
-This is a beautiful moutain.
+This is the beauty of nature.
+
+![Mountain](./daniel-roe-lpjb_UMOyx8-unsplash.jpg)
